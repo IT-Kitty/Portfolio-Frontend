@@ -1,4 +1,15 @@
+@import "./palette.scss";
+
 .navbar {
   position: fixed;
   width: 100%;
+}
+
+.section {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.highlighted {
+  color: $text-active;
 }
