@@ -1,0 +1,26 @@
+@import "./palette.scss";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: $color-main;
+  padding: 1rem 5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: $text-active;
+  font-weight: 600;
+}
+
+.link {
+  font-size: 1.2rem;
+  color: $text-basic;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.link.active,
+.link:hover {
+  color: $text-active;
+}
