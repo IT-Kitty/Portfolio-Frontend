@@ -1,5 +1,5 @@
 import About from "../sections/About";
-import Contacts from "../sections/Contacts";
+import Contact from "../sections/Contact";
 import Experience from "../sections/Experience";
 import Main from "../sections/Main";
 import Skills from "../sections/Skills";
@@ -15,7 +15,7 @@ function App() {
       <About></About>
       <Experience></Experience>
       <Skills></Skills>
-      <Contacts></Contacts>
+      <Contact></Contact>
     </div>
   );
 }

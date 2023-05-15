@@ -1,0 +1,45 @@
+@import "./palette.scss";
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-active;
+  color: $text-basic;
+  gap: 50px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    gap: 20px;
+
+    .line {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+    }
+
+    .field {
+      background: none;
+      width: 100%;
+      padding: 15px 10px;
+      font-size: 20px;
+      color: $text-active;
+      border-radius: 5px;
+      border: 2px solid $text-basic;
+
+      &::placeholder {
+        color: $text-active;
+      }
+    }
+
+    .submit-btn {
+      background-color: #fff;
+      padding: 15px 60px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}
