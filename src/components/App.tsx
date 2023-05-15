@@ -3,8 +3,9 @@ import Contacts from "../sections/Contacts";
 import Experience from "../sections/Experience";
 import Main from "../sections/Main";
 import Skills from "../sections/Skills";
-import "../styles/App.scss";
 import Navigation from "./NavBar";
+
+import "../styles/App.scss";
 
 function App() {
   return (
