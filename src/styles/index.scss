@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import "./palette.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  background-color: $color-main;
+  font-size: 62.5%;
+  overflow-x: hidden;
+
 a {
   color: #fff;
   border-bottom: 2px dotted #fff;

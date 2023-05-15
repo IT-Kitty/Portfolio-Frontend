@@ -1,7 +1,60 @@
 @import "./palette.scss";
 
-.navbar {
-  position: fixed;
+.btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 100%;
+  border: 0.2rem solid $text-active;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-fill {
+  background: $text-active;
+  color: $color-main;
+}
+
+.btn-fill:hover {
+  color: $text-active;
+}
+
+.btn-fill::before {
+  background: $color-main;
+}
+
+.btn-outline {
+  background: transparent;
+  color: $text-active;
+}
+
+.btn-outline:hover {
+  color: $color-main;
+}
+
+.btn-outline::before {
+  background: $text-active;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn:hover::before {
   width: 100%;
 }
 
