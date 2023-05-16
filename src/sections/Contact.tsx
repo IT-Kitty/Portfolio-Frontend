@@ -43,7 +43,7 @@ export default function Contact() {
             rows={4}
           ></textarea>
         </div>
-        <button className="btn submit-btn" type="submit">
+        <button className="btn btn-outline" type="submit">
           Submit
         </button>
       </form>
